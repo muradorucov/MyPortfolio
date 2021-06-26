@@ -1,0 +1,12 @@
+.buttn {
+  background-color: rgba(255, 255, 0, 0.295) !important;
+  color: white !important;
+  transition: all ease-in-out .5s !important;
+  -webkit-transition: all ease-in-out .5s !important;
+  -moz-transition: all ease-in-out .5s !important;
+  -ms-transition: all ease-in-out .5s !important;
+  -o-transition: all ease-in-out .5s !important;
+}
+.buttn:hover{
+  color: black !important;
+}
