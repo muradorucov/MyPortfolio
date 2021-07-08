@@ -1,12 +1,35 @@
 .buttn {
   background-color: rgba(255, 255, 0, 0.295) !important;
   color: white !important;
-  transition: all ease-in-out .5s !important;
-  -webkit-transition: all ease-in-out .5s !important;
-  -moz-transition: all ease-in-out .5s !important;
-  -ms-transition: all ease-in-out .5s !important;
-  -o-transition: all ease-in-out .5s !important;
+  transition: all ease-in-out 0.5s !important;
+  -webkit-transition: all ease-in-out 0.5s !important;
+  -moz-transition: all ease-in-out 0.5s !important;
+  -ms-transition: all ease-in-out 0.5s !important;
+  -o-transition: all ease-in-out 0.5s !important;
 }
-.buttn:hover{
+.buttn:hover {
   color: black !important;
+}
+
+.portfolio-description ul {
+  display: flex;
+  padding: 0;
+  font-size: 1rem;
+  list-style-image: linear-gradient(to left bottom, rgb(29, 27, 27), rgb(142, 221, 38));
+}
+.portfolio-description ul li {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.portfolio-description li:nth-child(1) {
+  color: blue;
+}
+.portfolio-description li:nth-child(2) {
+  color: red;
+}
+.portfolio-description li:nth-child(3) {
+  color: rgb(163, 109, 212);
+}
+.portfolio-description li:nth-child(4) {
+  color: rgb(211, 178, 117);
 }
