@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #f5f5f5;
+  background: linear-gradient(to right, #53e228 0, #3f8efc 100%);
   color: #4e4e4e;
 }
 
@@ -166,7 +166,7 @@ a:hover {
 }
 
 .line-mf {
-  width: 40px;
+  width: 70px;
   height: 5px;
   background-color: #0078ff;
   margin: 0 auto;
@@ -340,11 +340,12 @@ a:hover {
 .back-to-top {
   position: fixed;
   visibility: hidden;
+  /* border:  3px solid; */
   opacity: 0;
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: linear-gradient(to left, #ffffff 0, #d8dadd 100%);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -353,13 +354,14 @@ a:hover {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: rgb(34, 92, 252);
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #298eff;
+  background: linear-gradient(to right, #f5f7f2 0, #d6e0d3  100%);
   color: #fff;
+  border: black 5px solid;
 }
 
 .back-to-top.active {
@@ -368,7 +370,7 @@ a:hover {
 }
 
 /*------/ Prelaoder /------*/
-#preloader {
+/* #preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -409,7 +411,7 @@ a:hover {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*------/ Button /------*/
 .button {
@@ -470,7 +472,7 @@ a:hover {
   box-shadow: 0.125rem 0.25rem 2.25rem 0.0875rem rgb(45 45 45 / 15%);
 }
 .header-back {
-  background-color: #29ce73;
+  background-color: linear-gradient(to right, #53e228 0, #3f8efc 100%);
   /* #2ce780 */
 }
 
@@ -883,22 +885,31 @@ a:hover {
 --------------------------------------------------------------*/
 .service-box {
   background-color: #fff;
-  padding: 2.5rem 1.3rem;
-  border-radius: 1rem;
+  padding: 2rem 1.3rem;
+  border-radius: .4rem;
   margin-bottom: 3rem;
   text-align: center;
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  -ms-border-radius: .4rem;
+  -o-border-radius: .4rem;
 }
 
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
-  color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
+  color: #1e1e1e ;
+  background-color: #fff ;
+  
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
 }
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #fff;
+  
 }
 
 .service-box .ico-circle {
@@ -906,6 +917,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  background-color:#0078ff ;
 }
 
 .service-box .ico-circle i {
@@ -962,6 +974,8 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  border-radius: .4rem;
+  overflow: hidden;
 }
 
 .work-box:hover img {
@@ -1093,6 +1107,8 @@ a:hover {
 
 .testimonial-box .author-test img {
   margin: 0 auto;
+  width: 130px;
+  height: 130px;
 }
 
 .testimonial-box .author {
@@ -1477,7 +1493,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: black;
 }
 
 footer .copyright {
@@ -1491,4 +1507,3 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
-
