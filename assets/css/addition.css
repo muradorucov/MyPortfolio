@@ -134,3 +134,14 @@
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
 }
+
+.li-padding li{
+  padding-left: 0 !important;
+}
+
+.lead{
+  font-size: 25px;
+  margin-top: 35px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -359,7 +359,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: linear-gradient(to right, #f5f7f2 0, #d6e0d3  100%);
+  background: linear-gradient(to right, #f5f7f2 0, #d6e0d3 100%);
   color: #fff;
   border: black 5px solid;
 }
@@ -676,18 +676,32 @@ a:hover {
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
+  color: black;
   top: 15px;
   right: 15px;
+  z-index: 10000;
+}
+.navbar-mobile .mobile-nav-toggle:hover {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transition: all 0.9s;
+  -webkit-transition: all 0.9s;
+  -moz-transition: all 0.9s;
+  -ms-transition: all 0.9s;
+  -o-transition: all 0.9s;
 }
 
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 30px 0;
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
@@ -853,9 +867,9 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.about-mf .about-img img {
+/* .about-mf .about-img img {
   margin-left: 10px;
-}
+} */
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
@@ -886,20 +900,20 @@ a:hover {
 .service-box {
   background-color: #fff;
   padding: 2rem 1.3rem;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   margin-bottom: 3rem;
   text-align: center;
-  -webkit-border-radius: .4rem;
-  -moz-border-radius: .4rem;
-  -ms-border-radius: .4rem;
-  -o-border-radius: .4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
 }
 
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
-  color: #1e1e1e ;
-  background-color: #fff ;
-  
+  color: #1e1e1e;
+  background-color: #fff;
+
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
@@ -909,7 +923,6 @@ a:hover {
 .service-box .service-ico {
   margin-bottom: 1rem;
   color: #fff;
-  
 }
 
 .service-box .ico-circle {
@@ -917,7 +930,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color:#0078ff ;
+  background-color: #0078ff;
 }
 
 .service-box .ico-circle i {
@@ -974,7 +987,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   overflow: hidden;
 }
 
@@ -1493,7 +1506,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: black;
+  background: #243238;
 }
 
 footer .copyright {
