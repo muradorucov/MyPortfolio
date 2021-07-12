@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: linear-gradient(to right, #53e228 0, #3f8efc 100%);
+  background: #111;
   color: #4e4e4e;
 }
 
@@ -144,8 +144,13 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #ddd;
+  opacity: 0.7;
   font-size: 1.1rem;
+}
+.title-ss {
+  color: #ddd;
+  font-weight: 500;
 }
 
 /*--/ Title A /--*/
@@ -154,6 +159,7 @@ a:hover {
 }
 
 .title-a {
+  color: #ffd31d;
   text-decoration: none;
   font-size: 3rem;
   font-weight: bold;
@@ -162,13 +168,13 @@ a:hover {
 
 .subtitle-a {
   text-decoration: none;
-  color: #4e4e4e;
+  color: #ddd;
 }
 
 .line-mf {
-  width: 70px;
+  width: 110px;
   height: 5px;
-  background-color: #0078ff;
+  background: linear-gradient(to right, #bbc0c7 0, #0768f0 100%);
   margin: 0 auto;
 }
 
@@ -199,10 +205,12 @@ a:hover {
 
 .box-shadow-full {
   padding: 3rem 1.25rem;
+  padding-top: 0 !important;
   position: relative;
-  background-color: #fff;
+  background-color: #111;
   margin-bottom: 3rem;
   z-index: 2;
+  border: 1px solid rgb(17, 17, 17);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -268,14 +276,14 @@ a:hover {
 
 /*------/ Ico Circle /------*/
 .ico-circle {
-  height: 100px;
-  width: 100px;
+  /* height: 100px; */
+  /* width: 100px; */
   font-size: 2rem;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  /* box-shadow: 0 0 0 1px #ffd31d; */
   display: block;
 }
 
@@ -859,7 +867,7 @@ a:hover {
 # About
 --------------------------------------------------------------*/
 .about-mf .box-shadow-full {
-  padding-top: 4rem;
+  /* padding-top: 4rem; */
   padding-bottom: 4rem;
 }
 
@@ -911,13 +919,6 @@ a:hover {
 
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
-  color: #1e1e1e;
-  background-color: #fff;
-
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
 }
 
 .service-box .service-ico {
@@ -930,15 +931,17 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: #0078ff;
+  /* background-color: #0078ff; */
 }
 
 .service-box .ico-circle i {
   line-height: 0;
   font-size: 40px;
+  color: #ffd31d;
 }
 
 .service-box .s-title {
+  color: #fff;
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
@@ -946,7 +949,11 @@ a:hover {
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  font-family: "Roboto", sans-serif;
+  color: #ddd;
+  line-height: 32px;
+  letter-spacing: 0.3px;
+  margin: 0;
 }
 
 /*--------------------------------------------------------------
