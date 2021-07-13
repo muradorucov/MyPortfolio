@@ -30,15 +30,18 @@
   padding-left: 1.5rem !important;
 }
 .mt-5,
-.my-5 {
+.myto-5 {
   margin-top: 3rem !important;
+}
+.myto-4 {
+  margin-top: 1rem !important;
 }
 .education-box {
   box-shadow: 2px 0px 0px 1px #2b2a2a;
   border-radius: 4px;
   padding: 15px 25px;
   border-left: 3px solid;
-  margin-bottom: 4rem;
+  
   position: relative;
   transition: all ease-in-out 0.1s;
 }
@@ -52,7 +55,7 @@
   content: "";
   display: block;
   position: absolute;
-  background: #fff;
+  background: #111;
   border: 2px solid;
   width: 17px;
   height: 17px;
@@ -85,9 +88,10 @@
 
 .education-box:hover {
   box-shadow: 2px 0px 11px 1px #2b2a2a;
-  transition: all ease-in-out 0.1s;
-  -webkit-transition: all ease-in-out 0.1s;
-  -moz-transition: all ease-in-out 0.1s;
-  -ms-transition: all ease-in-out 0.1s;
-  -o-transition: all ease-in-out 0.1s;
+  margin-bottom: 5rem;
+  transition: all ease-in-out 1s;
+  -webkit-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out 1s;
 }

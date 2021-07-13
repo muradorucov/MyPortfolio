@@ -123,7 +123,7 @@
 }
 .card-service {
   height: 100%;
-  margin-bottom:0 !important ;
+  margin-bottom: 0 !important ;
   background-color: #111;
   border: 1px solid #424242;
   transition: cubic-bezier(0.57, 0.11, 0.27, 0.9) 0.3s;
@@ -169,7 +169,11 @@
   opacity: 1;
   bottom: -100px;
   left: 0;
-  transition: all ease 0.6s;
+  transition: all ease 1s;
+  -webkit-transition: all ease 1s;
+  -moz-transition: all ease 1s;
+  -ms-transition: all ease 1s;
+  -o-transition: all ease 1s;
 }
 .runbox p {
   text-align: center;
@@ -177,4 +181,57 @@
   color: #fff !important;
   opacity: 1 !important;
   line-height: 28px !important;
+}
+
+.skills {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(49, 48, 48);
+  box-shadow: 0px 0px 10px 0px #000000;
+  padding: 20px 20px;
+  border: 1px solid #111;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.skills li {
+  background-color: #79d70f;
+  border-radius: 5px;
+  padding: 5px 6px;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+}
+
+.skills li:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 0px 25px 0px #1f1e1e;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap:10px;
 }
