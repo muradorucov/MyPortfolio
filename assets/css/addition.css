@@ -209,7 +209,7 @@ ul {
   grid-row-gap: 10px;
 }
 
-.potfolio-grid li {
+.portfoli-texnolgy li {
   background-color: #79d70f;
   border-radius: 5px;
   padding: 5px 6px;
@@ -224,7 +224,7 @@ ul {
   -ms-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
 }
-.potfolio-grid li:hover {
+.portfoli-texnolgy li:hover {
   box-shadow: 0px 0px 10px 0px #969693;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
@@ -232,9 +232,15 @@ ul {
   -ms-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
 }
-.potfolio-grid {
+.potfolio-gridfront {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.potfolio-gridback {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
