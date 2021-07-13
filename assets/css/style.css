@@ -21,7 +21,9 @@ h5,
 h6 {
   color: #1e1e1e;
 }
-
+ul{
+  list-style: none;
+}
 a {
   color: #1e1e1e;
   text-decoration: none;
@@ -363,12 +365,12 @@ a:hover {
 
 .back-to-top i {
   font-size: 34px;
-   color: #111;
+  color: #111;
   line-height: 0;
   transition: all 0.4s;
 }
-.back-to-top:hover i{
-  color: #fff ;
+.back-to-top:hover i {
+  color: #fff;
 }
 
 .back-to-top:hover {
@@ -482,10 +484,10 @@ a:hover {
   padding: 20px 0;
   box-shadow: 0.125rem 0.25rem 2.25rem 0.0875rem rgb(45 45 45 / 15%);
 }
-.header-back {
-  background-color: linear-gradient(to right, #53e228 0, #3f8efc 100%);
-  /* #2ce780 */
-}
+/* .header-back {
+  /* background-color: linear-gradient(to right, #53e228 0, #3f8efc 100%); */
+/* #2ce780 }
+  */
 
 #header .logo {
   font-size: 28px;
@@ -505,7 +507,7 @@ a:hover {
 
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
-  border-bottom:  1px solid;
+  border-bottom: 1px solid;
   opacity: 1;
   /* background: #ffd31d; */
   padding: 12px 0;
@@ -572,7 +574,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #fff;
+  background: linear-gradient(to right, #bbc0c7 0, #0768f0 100%);
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -588,7 +590,7 @@ a:hover {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #fff;
+  color: #ffd31d;
 }
 
 .navbar .dropdown ul {
@@ -1058,6 +1060,11 @@ a:hover {
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -1073,27 +1080,49 @@ a:hover {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0078ff;
+  border: 1px solid #ffd31d;
 }
-
+.portfolio-details-slider{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: #0078ff;
+  background-color: #ffd31d;
 }
-
-.portfolio-details .portfolio-info {
+.portfolio-details {
+  margin-bottom: 4rem;
+}
+.portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
+  background-color: #111;
+  border-radius: 10px;
+  border: 1px solid #2b2a2a;
+  box-shadow: 0px 0 30px rgb(4, 4, 4);
+  font-family: "Roboto", sans-serif;
+  transition: all ease 0.4s;
 }
-
+.portfolio-info:hover {
+  transform: translateY(8px);
+  transition: all ease 0.4s;
+  box-shadow: 0px 0 30px rgb(0, 0, 0);
+  -webkit-transform: translateY(8px);
+  -moz-transform: translateY(8px);
+  -ms-transform: translateY(8px);
+  -o-transform: translateY(8px);
+}
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
+  color: #ffd31d;
+  border-bottom: 1px solid #ffd31d;
 }
 
 .portfolio-details .portfolio-info ul {
@@ -1101,25 +1130,56 @@ a:hover {
   padding: 0;
   font-size: 15px;
 }
+.portfolio-details .portfolio-info ul li {
+  display: flex;
+  align-items: center;
+}
 
 .portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
 .portfolio-details .portfolio-description {
-  padding-top: 30px;
+  margin-top: 30px;
+  padding: 20px 15px;
+  background-color: #111;
+  border-radius: 10px;
+  border: 1px solid #2b2a2a;
+  box-shadow: 0px 0 30px rgb(4, 4, 4);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  transition: all ease 0.4s;
 }
-
+.portfolio-description:hover {
+  transform: translateY(8px);
+  transition: all ease 0.4s;
+  box-shadow: 0px 0 30px rgb(0, 0, 0);
+  -webkit-transform: translateY(8px);
+  -moz-transform: translateY(8px);
+  -ms-transform: translateY(8px);
+  -o-transform: translateY(8px);
+}
 .portfolio-details .portfolio-description h2 {
-  font-size: 26px;
+  font-size: 25px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #ffd31d;
 }
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+  color: #ddd;
 }
 
+.title-p {
+  font-weight: 600;
+  color: #ffd31d;
+  font-size: 1.1rem;
+}
+.title-pp {
+  color: #ddd;
+  font-weight: 300;
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
