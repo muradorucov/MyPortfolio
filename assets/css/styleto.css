@@ -38,13 +38,9 @@
   border-radius: 4px;
   padding: 15px 25px;
   border-left: 3px solid;
-  margin-bottom: 25px;
+  margin-bottom: 4rem;
   position: relative;
   transition: all ease-in-out 0.1s;
-  -webkit-transition: all ease-in-out 0.1s;
-  -moz-transition: all ease-in-out 0.1s;
-  -ms-transition: all ease-in-out 0.1s;
-  -o-transition: all ease-in-out 0.1s;
 }
 
 .education-box:before,

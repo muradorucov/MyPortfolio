@@ -167,6 +167,7 @@ a:hover {
 }
 
 .subtitle-a {
+  /* padding: 0 200px; */
   text-decoration: none;
   color: #ddd;
 }
@@ -353,7 +354,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: linear-gradient(to left, #ffffff 0, #d8dadd 100%);
+  background: #ffd31d;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -362,14 +363,14 @@ a:hover {
 
 .back-to-top i {
   font-size: 28px;
-  color: rgb(34, 92, 252);
+   color: #fff;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: linear-gradient(to right, #f5f7f2 0, #d6e0d3 100%);
+  background: #ffd31d;
   color: #fff;
-  border: black 5px solid;
+  border: #111 3px solid;
 }
 
 .back-to-top.active {
@@ -502,6 +503,9 @@ a:hover {
 
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
+  border-bottom:  1px solid;
+  opacity: 1;
+  /* background: #ffd31d; */
   padding: 12px 0;
 }
 
@@ -908,6 +912,7 @@ a:hover {
 .service-box {
   background-color: #fff;
   padding: 2rem 1.3rem;
+  /* padding-bottom: 0; */
   border-radius: 0.4rem;
   margin-bottom: 3rem;
   text-align: center;
