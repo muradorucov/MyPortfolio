@@ -18,7 +18,7 @@
       let recaptcha = thisForm.getAttribute('data-recaptcha-site-key');
       
       if( ! action ) {
-        displayError(thisForm, 'The form action property is not set!')
+        displayError(thisForm, 'Bağışlayın form müddəti işləmir!')
         return;
       }
       thisForm.querySelector('.loading').classList.add('d-block');
