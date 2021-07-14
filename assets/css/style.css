@@ -17,11 +17,10 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   color: #1e1e1e;
 }
-ul{
+ul {
   list-style: none;
 }
 a {
@@ -62,8 +61,7 @@ a:hover {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-.box-shadow-a,
-.button:hover {
+.box-shadow-a {
   text-decoration: none;
   box-shadow: 0 0 0 4px #cde1f8;
 }
@@ -101,7 +99,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #111;
 }
 
 .overlay-mf {
@@ -196,7 +194,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background: linear-gradient(to right, #bbc0c7 0, #0768f0 100%);
   width: 100px;
   bottom: -12px;
 }
@@ -237,15 +235,14 @@ a:hover {
   width: 40px;
   text-align: center;
   font-size: 24px;
-  border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  color: #ffd31d;
+  box-shadow: 0 0 0 1px #ffd31d;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -266,13 +263,19 @@ a:hover {
 .list-ico li {
   display: flex;
   align-items: center;
+  color: #ddd;
+}
+.list-ico li a{
+  color: #ddd;
+  display: flex;
+  align-items: center;
 }
 .list-ico {
   line-height: 2;
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: #ffd31d;
   margin-right: 10px;
   font-size: 22px;
 }
@@ -429,44 +432,66 @@ a:hover {
 /*------/ Button /------*/
 .button {
   display: inline-block;
-  padding: 0.3rem 0.6rem;
+  padding: 0.5rem 2rem;
+  background-color: #2b2a2a;
+  color: #ffd31d;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
   font-size: 1rem;
-  border-radius: 0.3rem;
+  border-radius: 30px;
   border: 1px solid transparent;
   transition: all 500ms ease;
   cursor: pointer;
 }
-
 .button:focus {
   outline: 0;
-}
+} 
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: #ffd31d;
   color: #fff;
   transition: all 500ms ease;
-}
+} 
 
-.button-a {
+/* .button-a {
   text-decoration: none;
   background-color: #0078ff;
   color: #fff;
   border-color: #cde1f8;
-}
-
+} */
+/* 
 .button-big {
   padding: 0.9rem 2.3rem;
   font-size: 1.2rem;
-}
+} */
 
-.button-rouded {
+/* .button-rouded {
   border-radius: 5rem;
 }
+.php-email-form button[type="submit"] {
+  background: #0078ff;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.php-email-form button[type="submit"]:hover {
+  background: #3393ff;
+}
+
+.button:hover {
+  text-decoration: none;
+  box-shadow: 0 0 0 4px #cde1f8;
+}
+*/
 
 .btn-lg {
   padding: 0.5rem 1rem;
@@ -1082,7 +1107,7 @@ a:hover {
   opacity: 1;
   border: 1px solid #ffd31d;
 }
-.portfolio-details-slider{
+.portfolio-details-slider {
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -1199,12 +1224,13 @@ a:hover {
 }
 
 .testimonial-box .author {
-  color: #fff;
+  color: #ffd31d;
   text-transform: uppercase;
   font-weight: 600;
   margin: 1rem 0;
   display: block;
   font-size: 1.4rem;
+  font-family: "Roboto";
 }
 
 .testimonial-box .comit {
@@ -1330,18 +1356,6 @@ a:hover {
   margin-bottom: 0;
 }
 
-.php-email-form button[type="submit"] {
-  background: #0078ff;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-}
-
-.php-email-form button[type="submit"]:hover {
-  background: #3393ff;
-}
-
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1404,6 +1418,7 @@ a:hover {
 .card-blog .card-title {
   font-size: 1.3rem;
   margin-top: 0.6rem;
+  font-family: "Roboto";
 }
 
 .card-blog .card-description {
