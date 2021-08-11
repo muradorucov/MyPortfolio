@@ -249,6 +249,12 @@ ul {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
+.potfolio3-gridfront {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
 .potfolio-gridback {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));

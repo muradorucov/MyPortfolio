@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=STIX+Two+Text:ital,wght@0,400;0,500;1,400&display=swap');
+
 body {
   background: #111;
   color: #4e4e4e;
@@ -1048,6 +1050,7 @@ a:hover {
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  border-top: 1px solid darkgray;
 }
 
 .work-content .w-more {
@@ -1186,7 +1189,7 @@ a:hover {
   -o-transform: translateY(8px);
 }
 .portfolio-details .portfolio-description h2 {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 700;
   margin-bottom: 20px;
   color: #ffd31d;
@@ -1195,6 +1198,8 @@ a:hover {
 .portfolio-details .portfolio-description p {
   padding: 0;
   color: #ddd;
+  font-family: 'STIX Two Text', serif;
+  font-size: 1rem;
 }
 
 .title-p {
