@@ -1,3 +1,6 @@
+.justify-content-center{
+  justify-content:center;
+}
 .buttn {
   background-color: rgba(255, 255, 0, 0.295) !important;
   color: white !important;
